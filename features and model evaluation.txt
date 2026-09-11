@@ -1,0 +1,50 @@
+Before Pruning
+# Column	Likely Meaning
+
+# age	Patient age (years)
+# gender	0/1 encoded gender
+# rgn	Region (coded, e.g. rural/urban or province)
+# wt	Weight (kg)
+# bmi	Body Mass Index
+# wst	Waist circumference
+# sys	Systolic blood pressure
+# dia	Diastolic blood pressure
+# his	Family history of diabetes (0/1)
+# a1c	HbA1c level (glycated hemoglobin — key diabetes marker)
+# b.s.r	Blood sugar random (random blood glucose test)
+# vision	Blurred vision symptom (0/1)
+# exr	Exercise/physical activity level
+# dipsia	Polydipsia — excessive thirst symptom (0/1)
+# uria	Polyuria — frequent urination symptom (0/1)
+# dur	Duration (of symptoms/diabetes, in years)
+# neph	Nephropathy — kidney complication (0/1)
+# hdl	HDL cholesterol level
+# outcome	Target: diabetic (1) or not (0)
+
+
+
+
+After prunning
+
+ 'Age', 'BMI', 'Waist_cm', 'Systolic_BP', 'Exercise_Minutes',
+    'Gender_Label', 'Family_History_Label', 'Polydipsia_Label', 'Polyuria_Label'
+
+
+
+
+
+	accuracy	precision	recall	f1
+SVC	0.9396		0.9244		0.9666	0.9448
+
+
+
+
+
+
+
+
+
+
+
+
+
