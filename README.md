@@ -104,8 +104,9 @@ DiaRisk_Pakistan/
 │
 ├── images/
 │   ├── background.png
-│   ├── confusion_matrix.png
-│   └── feature_importance.png
+│   ├── confusion_matrix.PNG
+│   ├── feature_importance.PNG
+|   └── dashboard_diabetes.PNG
 │
 ├── features and model evaluation.txt
 └── README.md
